@@ -1,1 +1,3 @@
 # QCAD
+
+[QCAD](http://www.qcad.org/en/) is a free, open source application for computer aided drafting (CAD) in two dimensions (2D). With QCAD you can create technical drawings such as plans for buildings, interiors, mechanical parts or schematics and diagrams. QCAD works on Windows, macOS and Linux.
