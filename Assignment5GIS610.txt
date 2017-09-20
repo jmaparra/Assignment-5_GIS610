@@ -1,0 +1,190 @@
+\documentclass[10pt,false,letter]{article}
+
+\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{lineno}
+
+
+
+
+
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\@combinedblfloats{\box\@outputbox}{\unvbox\@outputbox}{}{%
+  \errmessage{\noexpand\@combinedblfloats could not be patched}%
+}%
+\makeatother
+
+
+\usepackage[round]{natbib}
+\let\cite\citep
+
+
+\renewenvironment{abstract}
+  {{\bfseries\noindent{\large\abstractname}\par\nobreak}}
+  {}
+
+\renewenvironment{quote}
+  {\begin{tabular}{|p{13cm}}}
+  {\end{tabular}}
+
+\titlespacing{\section}{0pt}{*3}{*1}
+\titlespacing{\subsection}{0pt}{*2}{*0.5}
+\titlespacing{\subsubsection}{0pt}{*1.5}{0pt}
+
+
+\usepackage{authblk}
+
+
+\usepackage{graphicx}
+\usepackage[space]{grffile}
+\usepackage{latexsym}
+\usepackage{textcomp}
+\usepackage{longtable}
+\usepackage{tabulary}
+\usepackage{booktabs,array,multirow}
+\usepackage{amsfonts,amsmath,amssymb}
+\providecommand\citet{\cite}
+\providecommand\citep{\cite}
+\providecommand\citealt{\cite}
+% You can conditionalize code for latexml or normal latex using this.
+\newif\iflatexml\latexmlfalse
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}%
+
+\DeclareGraphicsExtensions{.pdf,.PDF,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+
+
+
+
+
+
+
+\begin{document}
+
+\title{Assignment 5 GIS 610}
+
+
+
+\author[1]{jmparra}%
+\affil[1]{Affiliation not available}%
+
+
+\vspace{-1em}
+
+
+
+  \date{\today}
+
+
+\begingroup
+\let\center\flushleft
+\let\endcenter\endflushleft
+\maketitle
+\endgroup
+
+
+
+
+
+
+
+
+
+
+\section*{QCAD}\label{qcad}
+
+\href{http://www.qcad.org/en/}{QCAD} is a free, open source application
+for computer aided drafting (CAD) in two dimensions (2D). With QCAD you
+can create technical drawings such as plans for buildings, interiors,
+mechanical parts or schematics and diagrams. QCAD works on Windows,
+macOS and Linux.
+
+\subsection*{License}\label{license}
+
+The QCAD 3 source code is released under the GPLv3 open source license.
+Script add-ons and C++ plugins are released under their respective
+licenses.
+
+\href{http://http://www.qcad.org/en/license}{GNU General Public Licnse
+Version 3} (created by FSF) +
+\href{http://raw.githubusercontent.com/qcad/qcad/master/LICENSE.txt}{Optional
+Excpetions}
+
+\subsection*{Documentation and Manual}\label{documentation-and-manual}
+
+\url{http://www.qcad.org/en/qcad-documentation}
+
+\subsection*{Repository}\label{repository}
+
+\begin{itemize}
+\tightlist
+\item
+  QCAD Community Edition \url{https://github.com/qcad/qcad}
+\item
+  QCAD Professional
+  \href{http://www.ribbonsoft.com/shop/category.php?id_category=74}{QCAD
+  Professional Site License}
+  \href{http://www.ribbonsoft.com/shop/category.php?id_category=67}{QCAD
+  Professional Single User License}
+  \href{http://www.ribbonsoft.com/shop/category.php?id_category=75}{QCAD
+  Professional Server License}
+\end{itemize}
+
+\subsection*{Reporting Bugs}\label{reporting-bugs}
+
+Bugs can be reported and looked up at the link below:
+
+\url{http://www.qcad.org/bugtracker/} The way in which to format the
+\href{https://www.dokuwiki.org/wiki:syntax\#}{syntax} is also provided.
+
+\subsection*{Asking Questions}\label{asking-questions}
+
+There is a \href{https://www.qcad.org/rsforum/}{forum} for all
+questions. The moderator is Andrew who is one of the developers of QCAD
+
+\subsection*{QCAD Changelog}\label{qcad-changelog}
+
+There are announcements for all of the bug fixes and new versions on the
+forum as well a dedicated
+\href{http://www.qcad.org/en/changelog}{Changelog} page indicating past
+and upcoming changes.
+
+\subsection*{Contributing}\label{contributing}
+
+Directions on how to
+\href{http://www.qcad.org/en/contribute}{contribute} are on the website
+and take place on \href{https://github.com/qcad/qcad}{GitHub} by
+creating a pull request.
+
+\subsection*{Support}\label{support}
+
+\href{https://sourceforge.net/projects/qcad/support}{SourceForge} states
+that the best place to get support is on the home page and the forum for
+the project. There is also a nice tutorial for using QCAD
+\href{http://linuxfocus.org/English/January2002/article132.shtml\#132lfindex23}{here}.
+
+\subsection*{Activity}\label{activity}
+
+QCAD started as version 1 in October 1999 and has since evolved through
+version 2 (September 2003) and the current version 3 (from July 2012).
+There has been
+\href{https://github.com/qcad/qcad/graphs/contributors}{activity} on the
+sourcecode since its last updeted version.
+
+\selectlanguage{english}
+\clearpage
+\end{document}
+
